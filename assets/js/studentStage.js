@@ -1,5 +1,5 @@
 function runStage() {
-    var stage = 2;
+    var stage = 1;
     var other = document.getElementById("stageOther")
     var stage1 = document.getElementById("stage1")
     var stage2 = document.getElementById("stage2")
@@ -65,15 +65,13 @@ function showText(id, delay) {
 function showTexts() {
     showText('line1a', 2);
     showText('line1b', 4);
-    showText('line1c', 6);
     showText('line2a', 2);
     showText('line2b', 4);
-    showText('line2c', 6);
-    showText('line2d', 8);
-    showText('line2e', 10);
     showText('line3a', 2);
     showText('line3b', 4);
     showText('line3c', 6);
+    showText('line3d', 8);
+    showText('line3e', 10);
     showText('line4a', 2);
     showText('line4b', 4);
     showText('line4c', 6);

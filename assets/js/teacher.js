@@ -1,7 +1,4 @@
 function load() {
-    orderSlides();
-    hideAllStages();
-    runStage();
     document.body.style.opacity = '1'
 }
 
