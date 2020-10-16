@@ -41,6 +41,16 @@ html {
     display: none;
 }
 
+body { 
+    opacity: 0; 
+    transition: opacity 5s; 
+} 
+
+.fadeText {
+    opacity: 0;
+    transition: opacity 0.8s;
+}
+
 .nebulaImg {
     background-image: url(/assets/img/nebulaSqr.gif);
     background-position: center center;
