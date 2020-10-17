@@ -42,7 +42,7 @@ html {
     display: none;
 }
 
-body { 
+.body { 
     opacity: 0; 
     transition: opacity 5s; 
 } 

@@ -1,5 +1,5 @@
 function load() {
-    document.body.style.opacity = '1'
+    document.getElementById("body").style.opacity = '1'
 }
 
 function bgNebula() {
