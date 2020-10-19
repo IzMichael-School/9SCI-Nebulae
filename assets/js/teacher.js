@@ -1,5 +1,4 @@
 function load() {
-    showTexts();
 }
 
 function orderSlides() {

@@ -52,7 +52,7 @@ function load() {
     hideAllStages();
     runStage();
     showTexts();
-    document.getElementById("body").style.opacity = '1'
+    document.body.style.opacity = '1';
 }
 
 function showText(id, delay) {
