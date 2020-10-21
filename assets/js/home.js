@@ -4,7 +4,7 @@ function bgNebula() {
 }
 
 function openStudent() {
-    window.location.href = "/student.html"
+    window.location.href = "/studentLogin.html"
 }
 
 function openTeacher() {

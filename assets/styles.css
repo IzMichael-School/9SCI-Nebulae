@@ -82,3 +82,7 @@ html {
         opacity: 1;
     }
 }
+
+* {
+    outline: none;
+}
