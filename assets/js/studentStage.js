@@ -1,10 +1,14 @@
 function runStage() {
-    var stage = 1;
+    var stage = 5; // Only stage 4 has a 2nd digit (41 - 45)
     var other = document.getElementById("stageOther")
     var stage1 = document.getElementById("stage1")
     var stage2 = document.getElementById("stage2")
     var stage3 = document.getElementById("stage3")
-    var stage4 = document.getElementById("stage4")
+    var stage41 = document.getElementById("stage4.1")
+    var stage42 = document.getElementById("stage4.2")
+    var stage43 = document.getElementById("stage4.3")
+    var stage44 = document.getElementById("stage4.4")
+    var stage45 = document.getElementById("stage4.5")
     var stage5 = document.getElementById("stage5")
     var stage6 = document.getElementById("stage6")
     if (stage == 1) {
@@ -16,9 +20,26 @@ function runStage() {
     } else if (stage == 3) {
         hideAllStages();
         stage3.classList.remove("hidden");
-    } else if (stage == 4) {
+    } else if (stage == 41) {
         hideAllStages();
         stage4.classList.remove("hidden");
+        stage41.classList.remove("hidden");
+    } else if (stage == 42) {
+        hideAllStages();
+        stage4.classList.remove("hidden");
+        stage42.classList.remove("hidden");
+    } else if (stage == 43) {
+        hideAllStages();
+        stage4.classList.remove("hidden");
+        stage43.classList.remove("hidden");
+    } else if (stage == 44) {
+        hideAllStages();
+        stage4.classList.remove("hidden");
+        stage44.classList.remove("hidden");
+    } else if (stage == 45) {
+        hideAllStages();
+        stage4.classList.remove("hidden");
+        stage45.classList.remove("hidden");
     } else if (stage == 5) {
         hideAllStages();
         stage5.classList.remove("hidden");
@@ -37,6 +58,11 @@ function hideAllStages() {
     var stage2 = document.getElementById("stage2")
     var stage3 = document.getElementById("stage3")
     var stage4 = document.getElementById("stage4")
+    var stage41 = document.getElementById("stage4.1")
+    var stage42 = document.getElementById("stage4.2")
+    var stage43 = document.getElementById("stage4.3")
+    var stage44 = document.getElementById("stage4.4")
+    var stage45 = document.getElementById("stage4.5")
     var stage5 = document.getElementById("stage5")
     var stage6 = document.getElementById("stage6")
     other.classList.add("hidden")
@@ -44,6 +70,11 @@ function hideAllStages() {
     stage2.classList.add("hidden")
     stage3.classList.add("hidden")
     stage4.classList.add("hidden")
+    stage41.classList.add("hidden")
+    stage42.classList.add("hidden")
+    stage43.classList.add("hidden")
+    stage44.classList.add("hidden")
+    stage45.classList.add("hidden")
     stage5.classList.add("hidden")
     stage6.classList.add("hidden")
 }

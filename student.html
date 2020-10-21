@@ -10,7 +10,7 @@
 
 <body class="body" onload="load()" style="background-color: #1F1F1F;" oncontextmenu="return false">
     <div class="flex flex-col items-center justify-center w-full h-full" id="pageContent">
-        <div class="absolute sticky top-0 flex flex-row justify-center w-2/3 p-5 text-4xl text-center bg-blue-200 cursor-pointer select-none"
+        <div class="absolute sticky top-0 border-t-2 border-b-2 border-black flex flex-row justify-center w-2/3 p-5 text-4xl text-center bg-blue-200 cursor-pointer select-none"
             onclick="toHome()">
             <h1>Nebulae - 9SCI</h1>
         </div>
@@ -40,19 +40,54 @@
                 <h1 class="fadeText" id="line3e">beyond the Milky Way.</h1>
             </div>
         </div>
-        <div class="flex flex-col w-2/3 mt-20 text-4xl text-center" id="stage4">
-            <div class="p-5 bg-blue-200 select-none">
-                <h1>3</h1>
+        <div class="flex flex-col w-2/3 mt-20 text-4xl text-center gap-5" id="stage4">
+            <div class="p-5 bg-blue-200 select-none" id="stage4.1">
+                <h1>Emission Nebulae</h1>
+                <p class="text-2xl">An emission nebula is a cloud of hot gas. Inside these, a star energizes
+                    the atoms in the cloud with ultraviolet radiation. As these atoms' energy lowers, they give off
+                    radiation.
+                    This causes the nebula to glow. Emission Nebulae tend to be red in color because
+                    there's a lot of hydrogen. Additional colors, such as blue and green, can be produced by
+                    the atoms of other elements.</p>
+            </div>
+            <div class="p-5 bg-blue-200 select-none" id="stage4.2">
+                <h1>Reflection Nebulae</h1>
+                <p class="text-2xl">A reflection nebula differs from an emission nebula in that it does not produce its
+                    own radiation. It is a dust and gas cloud that reflects the energy of light from a star or group of
+                    stars nearby. The sites of star formation are often Reflection Nebulae. Because of the way that the
+                    light is dispersed, they typically appear to be blue in colour. Blue light is more efficiently
+                    scattered.
+                </p>
+            </div>
+            <div class="p-5 bg-blue-200 select-none" id="stage4.3">
+                <h1>Dark Nebulae</h1>
+                <p class="text-2xl">A dark nebula is a dust cloud that hides the light behind it from objects. In
+                    structure, they are somewhat similar to reflection nebulae and appear distinct largely because of
+                    the light source placement. Dark nebulae are often seen with emission and reflection nebulae.</p>
+            </div>
+            <div class="p-5 bg-blue-200 select-none" id="stage4.4">
+                <h1>Planetary Nebulae</h1>
+                <p class="text-2xl"> As it nears the end of its life cycle, a star forms a shell of gas known as a
+                    planetary nebula. It can be a tad misleading to name them. They have nothing to do with the planets,
+                    really. This name was given to these nebulae because, according to their circular appearance, they
+                    also look like planets. The outer shell of gas is normally illuminated at its core by the remains of
+                    the star.</p>
+            </div>
+            <div class="p-5 bg-blue-200 select-none" id="stage4.5">
+                <h1>Supernova Remnants</h1>
+                <p class="text-2xl">When a star ends its existence in a massive explosion known as a supernova,
+                    supernova remnants are formed. The blast throws a massive volume of matter from the star into space.
+                    With the remains of the star which formed it, this cloud of matter glows.</p>
             </div>
         </div>
         <div class="flex flex-col w-2/3 mt-20 text-4xl text-center" id="stage5">
             <div class="p-5 bg-blue-200 select-none">
-                <h1>4</h1>
+                <h1>5</h1>
             </div>
         </div>
         <div class="flex flex-col w-2/3 mt-20 text-4xl text-center" id="stage6">
             <div class="p-5 bg-blue-200 select-none">
-                <h1>5</h1>
+                <h1>6</h1>
             </div>
         </div>
     </div>

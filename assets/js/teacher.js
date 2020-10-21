@@ -26,3 +26,13 @@ function showTexts1() {
     showText('line1e', 9);
     showText('line1f', 10);
 }
+
+function showTexts3() {
+    showText('line3a', 2);
+    showText('line3b', 4);
+    showText('line3c', 5);
+    showText('line3d', 6);
+    showText('line3e', 7);
+    showText('line3f', 8);
+    showText('line3f', 9);
+}
