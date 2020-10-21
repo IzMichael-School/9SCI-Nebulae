@@ -18,11 +18,11 @@ function showText(id, delay) {
     }, delay * 1000)
 }
 
-function showTexts() {
+function showTexts1() {
     showText('line1a', 2);
     showText('line1b', 4);
     showText('line1c', 6);
-    showText('line2a', 8);
-    showText('line2b', 9);
-    showText('line2c', 10);
+    showText('line1d', 8);
+    showText('line1e', 9);
+    showText('line1f', 10);
 }
