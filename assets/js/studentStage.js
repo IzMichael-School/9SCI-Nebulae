@@ -103,6 +103,8 @@ function showTexts() {
     showText('line3c', 6);
     showText('line3d', 8);
     showText('line3e', 10);
+    showText('line3f', 11);
+    showText('line3g', 12);
     showText('line4a', 2);
     showText('line4b', 4);
     showText('line4c', 6);
