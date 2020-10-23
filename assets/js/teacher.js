@@ -34,5 +34,15 @@ function showTexts3() {
     showText('line3d', 6);
     showText('line3e', 7);
     showText('line3f', 8);
-    showText('line3f', 9);
+    showText('line3g', 9);
+}
+
+function showTexts6() {
+    showText('line6a', 2);
+    showText('line6b', 4);
+    showText('line6c', 5);
+    showText('line6d', 6);
+    showText('line6e', 7);
+    showText('line6f', 8);
+    showText('line6g', 9);
 }

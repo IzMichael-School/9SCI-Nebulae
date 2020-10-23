@@ -1,5 +1,5 @@
 function runStage() {
-    var stage = 5; // Only stage 4 has a 2nd digit (41 - 45)
+    var stage = 6; // Only stage 4 has a 2nd digit (41 - 45)
     var other = document.getElementById("stageOther")
     var stage1 = document.getElementById("stage1")
     var stage2 = document.getElementById("stage2")
