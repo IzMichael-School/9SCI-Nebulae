@@ -37,6 +37,16 @@ function showTexts3() {
     showText('line3g', 9);
 }
 
+function showTexts4() {
+    showText('line4a', 2);
+    showText('line4b', 4);
+    showText('line4c', 5);
+    showText('line4d', 6);
+    showText('line4e', 7);
+    showText('line4f', 8);
+    showText('line4g', 9);
+}
+
 function showTexts6() {
     showText('line6a', 2);
     showText('line6b', 4);
