@@ -47,12 +47,32 @@ function showTexts4() {
     showText('line4g', 9);
 }
 
+function showTexts5() {
+    showText('line5a', 2);
+    showText('line5b', 4);
+    showText('line5c', 5);
+    showText('line5d', 6);
+    showText('line5e', 7);
+    showText('line5f', 8);
+    showText('line5g', 9);
+}
+
 function showTexts6() {
     showText('line6a', 2);
-    showText('line6b', 4);
-    showText('line6c', 5);
-    showText('line6d', 6);
-    showText('line6e', 7);
-    showText('line6f', 8);
-    showText('line6g', 9);
+    showText('line6b', 6);
+    showText('line6c', 8);
+    showText('line6d', 10);
+    showText('line6e', 12);
+    showText('line6f', 14);
+    showText('line6g', 16);
+}
+
+function showTexts7() {
+    showText('line7a', 2);
+    showText('line7b', 6);
+    showText('line7c', 8);
+    showText('line7d', 10);
+    showText('line7e', 12);
+    showText('line7f', 14);
+    showText('line7g', 16);
 }
